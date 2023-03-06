@@ -89,7 +89,7 @@ button:hover {
   background-color: var(--hover);
 }
 .hero-section {
-  background-image: url(/pet-lover-cover/acset/img/hero.jpg);
+  background-image: url(/acset/img/hero.jpg);
   height: 100%;
   background-size: cover;
   display: flex;
@@ -355,7 +355,7 @@ h3 {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/pet-lover-cover/acset/img/price-1.jpg);
+  background-image: url(/acset/img/price-1.jpg);
 }
 .plan-content {
   background-color: rgba(69, 67, 67, 0.5);
@@ -411,10 +411,10 @@ h3 {
 }
 
 .pricing-plan2 {
-  background-image: url(/pet-lover-cover/acset/img/price-2.jpg);
+  background-image: url(/acset/img/price-2.jpg);
 }
 .pricing-plan3 {
-  background-image: url(/pet-lover-cover/acset/img/price-3.jpg);
+  background-image: url(/acset/img/price-3.jpg);
 }
 .team-header {
   padding-top: 50px;
