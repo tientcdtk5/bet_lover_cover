@@ -1,0 +1,516 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+:root {
+  --cam: #ed6436;
+  --hover: #ec5826;
+  --xanh: #59bc6d;
+  --xam: #f2f2f4;
+}
+.header-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px 48px;
+}
+.logo {
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 700;
+  display: flex;
+  gap: 0;
+}
+.color_ori {
+  color: var(--cam);
+}
+.color_bla {
+  color: black;
+}
+.header-top-info {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 12px;
+}
+.info-col-boder {
+  border-left: 2px solid rgb(200, 194, 194);
+}
+.info-col {
+  padding: 0 6px;
+}
+
+.bole {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.text {
+  opacity: 0.9;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 48px;
+  background-color: black;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  padding: 30px 0;
+  gap: 5px;
+  list-style: none;
+}
+
+.nav-items {
+  padding: 30px 20px;
+  text-decoration: none;
+  color: white;
+}
+.nav-items:hover,
+.active {
+  background-color: var(--hover);
+}
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  background-color: var(--cam);
+  color: white;
+  border: none;
+}
+button:hover {
+  background-color: var(--hover);
+}
+.hero-section {
+  background-image: url(/pet-lover-cover/acset/img/hero.jpg);
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  color: var(--xam);
+}
+h3,
+h1,
+h5 {
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+h1 {
+  font-size: 65px;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+}
+.hero-btn {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+.btn-xanh {
+  background-color: var(--xanh);
+  opacity: 0.9;
+}
+.btn-xanh:hover {
+  background-color: var(--xanh);
+  opacity: 1;
+}
+.book {
+  background-color: rgb(243, 239, 239);
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-font {
+  min-width: 33%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 118px 0;
+  background-color: var(--cam);
+}
+.font-input,
+.font-select {
+  width: 80%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 5px;
+}
+
+.book-btn {
+  width: 80%;
+  height: 46px;
+  color: var(--xam);
+  background-color: black;
+}
+.book-btn:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+.book-info {
+  display: flex;
+  padding: 0px 50px;
+  max-width: 70%;
+}
+.heading-all {
+  padding: 72px 0;
+}
+.heading-sm {
+  font-size: 20px;
+  color: var(--xanh);
+  padding-bottom: 15px;
+}
+.heading-lg {
+  font-size: 39px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  padding-bottom: 15px;
+}
+.colored {
+  color: var(--cam);
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(98, 96, 96);
+  padding-bottom: 15px;
+}
+.info-font {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.info-items {
+  max-width: 50%;
+  padding-bottom: 10px;
+}
+.items-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.items-header img {
+  width: 40px;
+  padding-right: 10px;
+}
+.items-header h5 {
+  font-weight: bold;
+}
+.info-items p {
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(98, 96, 96);
+}
+.padding-right {
+  padding-right: 5px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  /* padding-top: 50px; */
+}
+.paragraph-bole {
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.about-list {
+  list-style: none;
+  padding-bottom: 30px;
+}
+.about-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.ti-check {
+  color: var(--xanh);
+}
+.about-img {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  padding-top: 72px;
+}
+.img1 {
+  width: 100%;
+}
+.img-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.img-row img {
+  max-width: 50%;
+}
+.services,
+.pricing {
+  width: 100%;
+  padding-top: 80px;
+  background-color: rgb(243, 239, 239);
+}
+.services-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lage {
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 34px;
+}
+.services-items {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  background-color: white;
+  padding: 40px;
+}
+.services-items h5 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.centerp {
+  text-align: center;
+}
+.services-btn {
+  text-decoration: none;
+  padding-top: 10px;
+}
+.services-btn:hover {
+  text-decoration: revert;
+}
+.heading-why {
+  padding: 0;
+}
+.why-right {
+  min-width: 38%;
+  max-width: 50%;
+  padding: 0;
+}
+.why-img {
+  width: 118%;
+}
+.pricing {
+  padding-bottom: 50px;
+}
+.pricing-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+}
+.pricing-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  padding-top: 30px;
+}
+.pricing-plan {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/pet-lover-cover/acset/img/price-1.jpg);
+}
+.plan-content {
+  background-color: rgba(69, 67, 67, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  height: 100%;
+  width: 100%;
+}
+.plan-content > div {
+  color: white;
+  font-size: 18px;
+}
+.plan-content h3 {
+  color: var(--cam);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.price-number {
+  font-size: 48px;
+  font-weight: 700;
+}
+.plans-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+}
+.pricing-items > a {
+  width: 100%;
+}
+.plan-btn {
+  width: 100%;
+  border-radius: 0;
+}
+.plans-features > li {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+}
+.plans-noboder {
+  border-top: none;
+}
+.ti-close {
+  color: red;
+}
+
+.pricing-plan2 {
+  background-image: url(/pet-lover-cover/acset/img/price-2.jpg);
+}
+.pricing-plan3 {
+  background-image: url(/pet-lover-cover/acset/img/price-3.jpg);
+}
+.team-header {
+  padding-top: 50px;
+}
+.team-members-list,
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.team-members-list {
+  gap: 25px;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+.member-info-wrapper {
+  overflow: hidden;
+}
+.team-members-items,
+.member-info-wrapper,
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+}
+.team-members-items {
+  max-height: 348px;
+
+  max-width: 23%;
+  gap: 0px;
+  border-radius: 5px;
+}
+.team-members-items img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.team-member-pic {
+}
+.member-info {
+  position: relative;
+  top: 33px;
+  transition: all 0.6s;
+}
+.member-info-wrapper,
+.member-info,
+.title,
+.social {
+  background-color: rgb(243, 239, 239);
+  width: 100%;
+}
+.social {
+  gap: 3px;
+  background-color: black;
+}
+.social i {
+  font-size: 24px;
+  color: var(--cam);
+}
+.social > a {
+  text-decoration: none;
+  padding: 19px 10px;
+}
+.team-members-items:hover .member-info {
+  transform: translateY(-63px);
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  background-color: rgb(11, 11, 11);
+}
+.footer-list {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+}
+.footer-items {
+  width: 33%;
+}
+.logo-footer {
+  padding-bottom: 20px;
+}
+.footer-content {
+  color: white;
+}
+.color-wi {
+  color: white;
+}
+.footer-a {
+  text-decoration: none;
+}
+.footer-a:hover {
+  text-decoration: underline;
+}
